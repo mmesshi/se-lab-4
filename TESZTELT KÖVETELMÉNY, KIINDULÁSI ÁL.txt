@@ -1,0 +1,6 @@
+	TESZTELT KÖVETELMÉNY, KIINDULÁSI ÁLLAPOT, <LÉPÉSEK>, ELVÁRT KIMENET, TAPASZTALT KIMENET
+
+1.egyenkénti lövés, van torpedó ami nem hibásodik, fire single, fire single...fire single - sucess, success,...failure : success, success,...failure - aka ugyanaz, helyes 
+2.páratlan lövés, van torpedó, fire all amíg a maradék 1, utána megint, fire all, fire all, .... fire all -success, success....success : sucess, success...success - elvárásnak megfelelő
+3.0 maradék torpedóval lövés - tesztelés közben többször bemutatja, hogy failure
+4.meghibásodott hajóval lövés, fire single - failure : failure - elvárásnak megfelelő
